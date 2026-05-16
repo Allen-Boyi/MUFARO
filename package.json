@@ -1,0 +1,48 @@
+{
+  "name": "ciara-session",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Mufaro — WhatsApp Educational Bot powered by Groq AI",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "ciara",
+    "ciara-session",
+    "whatsapp-bot",
+    "whatsapp-session",
+    "whatsapp-pairing",
+    "pair-code",
+    "qr-code",
+    "baileys",
+    "baileys-md",
+    "whiskeysockets",
+    "session-generator",
+    "whatsapp-api",
+    "multi-device",
+    "express",
+    "heroku",
+    "render",
+    "koyeb"
+  ],
+  "author": "Mufaro Bot",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "latest",
+    "awesome-phonenumber": "^5.9.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "fs-extra": "^11.3.0",
+    "groq-sdk": "^1.2.0",
+    "path": "^0.12.7",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4"
+  }
+}
